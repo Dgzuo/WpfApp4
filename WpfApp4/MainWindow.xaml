@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="260" Background="red">
+    <Grid>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"  x:Name="res" RenderTransformOrigin="0,-0.154" Background="White" Width="170"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="64,160,0,0" VerticalAlignment="Top"   Width="81" Height="25" RenderTransformOrigin="0.432,-0.2" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,22,0,0" TextWrapping="Wrap" Text="N"  x:Name="inN" VerticalAlignment="Top" Width="65"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="98,22,0,0" TextWrapping="Wrap" Text="X" x:Name="inX" VerticalAlignment="Top" Width="67" RenderTransformOrigin="0.896,0.391"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" x:Name="resAtan" Background="White" Width="170"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="10,60,0,0"  VerticalAlignment="Top" x:Name="count" Height="33" Background="White" Width="155"/>
+
+    </Grid>
+</Window>
